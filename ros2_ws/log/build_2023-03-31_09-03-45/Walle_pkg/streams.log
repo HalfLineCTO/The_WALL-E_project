@@ -1,0 +1,26 @@
+[1.381s] Invoking command in '/home/juan/ros2_ws/Walle_pkg': PYTHONPATH=/home/juan/ros2_ws/build/Walle_pkg/prefix_override:/home/juan/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Walle_pkg build --build-base /home/juan/ros2_ws/build/Walle_pkg/build install --record /home/juan/ros2_ws/build/Walle_pkg/install.log --single-version-externally-managed
+[1.933s] running egg_info
+[1.935s] writing ../build/Walle_pkg/Walle_pkg.egg-info/PKG-INFO
+[1.935s] writing dependency_links to ../build/Walle_pkg/Walle_pkg.egg-info/dependency_links.txt
+[1.936s] writing entry points to ../build/Walle_pkg/Walle_pkg.egg-info/entry_points.txt
+[1.936s] writing requirements to ../build/Walle_pkg/Walle_pkg.egg-info/requires.txt
+[1.936s] writing top-level names to ../build/Walle_pkg/Walle_pkg.egg-info/top_level.txt
+[1.939s] reading manifest file '../build/Walle_pkg/Walle_pkg.egg-info/SOURCES.txt'
+[1.941s] writing manifest file '../build/Walle_pkg/Walle_pkg.egg-info/SOURCES.txt'
+[1.942s] running build
+[1.942s] running build_py
+[1.942s] copying Walle_pkg/turtle_bot_teleop.py -> /home/juan/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg
+[1.943s] running install
+[1.943s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.943s]   warnings.warn(
+[1.943s] running install_lib
+[1.945s] copying /home/juan/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg/turtle_bot_teleop.py -> /home/juan/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg
+[1.946s] byte-compiling /home/juan/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc
+[1.947s] running install_data
+[1.948s] running install_egg_info
+[1.952s] removing '/home/juan/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.952s] Copying ../build/Walle_pkg/Walle_pkg.egg-info to /home/juan/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg-0.0.0-py3.10.egg-info
+[1.954s] running install_scripts
+[1.997s] Installing turtle_bot_teleop script to /home/juan/ros2_ws/install/Walle_pkg/lib/Walle_pkg
+[1.997s] writing list of installed files to '/home/juan/ros2_ws/build/Walle_pkg/install.log'
+[2.042s] Invoked command in '/home/juan/ros2_ws/Walle_pkg' returned '0': PYTHONPATH=/home/juan/ros2_ws/build/Walle_pkg/prefix_override:/home/juan/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Walle_pkg build --build-base /home/juan/ros2_ws/build/Walle_pkg/build install --record /home/juan/ros2_ws/build/Walle_pkg/install.log --single-version-externally-managed

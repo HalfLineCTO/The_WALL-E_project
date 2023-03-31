@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_bot_teleop = Walle_pkg.turtle_bot_teleop:main
+

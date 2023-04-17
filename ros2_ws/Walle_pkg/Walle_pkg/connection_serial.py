@@ -33,7 +33,7 @@ class MinimalSubscriber(Node):
         super().__init__('connectionSerial')
         self.subscription = self.create_subscription(
             Twist,
-            '/cmdVel',
+            'turtlebot_cmdVel',
             self.listener_callback,
             10)
 

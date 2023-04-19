@@ -7,8 +7,8 @@ import os
 
 from time import sleep
 from tkinter import Tk, Label, Button, Frame, Entry, messagebox,filedialog
-from robot_taller2.srv import SavePath, DoPath
-from robot_taller2.msg import Float32MultiArray
+from src.robot_taller2.srv import SavePath, DoPath
+from src.robot_taller2.msg import Float32MultiArray
 import tkinter
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
@@ -29,7 +29,7 @@ directorio_realizar_ruta = ""
 class MinimalSubscriber(Node, Thread):
     def __init__(self):
         Thread.__init__(self)
-        super().__init__('turtle_bot_interface')
+        super().__init__('robot_interface')
         self.subscription = self.create_subscription(
             Twist,
             '/turtlebot_position',
@@ -83,10 +83,10 @@ class MinimalSubscriber(Node, Thread):
         
         if(cargar):
             while not self.do_path_srv.wait_for_service(timeout_sec=1.0):
-                self.get_logger().info('Finding do path service')
+                self.get_logger().info('Buscando archivo')
             self.req = DoPath.Request()
             self.do_path()
-            print("xdddddd")
+            print("Cargado")
 
         while(not salir):
             rclpy.spin_once(self)
@@ -95,7 +95,7 @@ class MinimalSubscriber(Node, Thread):
 
         if(guardar_ruta):
             while not self.save_path_srv.wait_for_service(timeout_sec=1.0):
-                self.get_logger().info('Press Q in the teleop console')
+                self.get_logger().info('Presionar Q en la consola de teleoperación')
             self.req = SavePath.Request()
             response = self.get_save_path()
             self.save_path(response.path)
@@ -111,8 +111,8 @@ class VentanaTurtleBot(Thread):
         # Configuración inicial root
         self.root = root
         self.minimal_subscriber = minimal_subscriber
-        self.root.geometry("800x800")
-        self.root.title("Interfaz TurtleBot")
+        self.root.geometry("900x900")
+        self.root.title("Wall-E 4k")
         self.root.minsize(width=800, height=800)
         self.root.resizable(False, False)
 
@@ -127,8 +127,8 @@ class VentanaTurtleBot(Thread):
         Label(frame_top, text="Nombre de la gráfica:",bg="white", font='Helvetica 12 bold').pack(pady=5, side='left', expand=1)
         titulo = tkinter.StringVar(self.root, value='')
         Entry(frame_top, textvariable=titulo, width=30).pack(pady=5, side='left', expand=1)
-        Button(frame_top, text='Empezar', width=15, bg='white', fg='black', font='Helvetica 12 bold', command=lambda: self.init(titulo)).pack(pady=5, side='left', expand=1)
-        Button(frame_top, text='Cargar ruta', width=15, bg='white', fg='black', font='Helvetica 12 bold', command= self.do_path).pack(pady=5, side='left', expand=1)
+        Button(frame_top, text='Empezar', width=15, bg='white', fg='black', font='Helvetica 11 bold', command=lambda: self.init(titulo)).pack(pady=5, side='left', expand=1)
+        Button(frame_top, text='Cargar ruta', width=15, bg='white', fg='black', font='Helvetica 11 bold', command= self.do_path).pack(pady=5, side='left', expand=1)
 
         # Center
         global canvas 
@@ -136,9 +136,9 @@ class VentanaTurtleBot(Thread):
         canvas.get_tk_widget().pack(padx=2, pady=2, expand=1, fill='both')
 
         # Bottom
-        Button(frame_buttton, text='Detener', width=15, bg='white', fg='black', font='Helvetica 12 bold', command=self.detener).pack(pady=5, side='left', expand=1)
-        Button(frame_buttton, text='Reanudar', width=15, bg='white', fg='black', font='Helvetica 12 bold', command=self.reanudar).pack(pady=5, side='left', expand=1)
         Button(frame_buttton, text='Guardar', width=15, bg='white', fg='black', font='Helvetica 12 bold', command=self.guardar).pack(pady=5, side='left', expand=1)
+        # Button(frame_buttton, text='Pausa', width=15, bg='white', fg='black', font='Helvetica 12 bold', command=self.detener).pack(pady=5, side='left', expand=1)
+        # Button(frame_buttton, text='Reanudar', width=15, bg='white', fg='black', font='Helvetica 12 bold', command=self.reanudar).pack(pady=5, side='left', expand=1)
         Button(frame_buttton, text='Salir', width=15, bg='white', fg='black', font='Helvetica 12 bold', command=self.salir).pack(pady=5, side='left', expand=1)
 
 
@@ -155,7 +155,7 @@ class VentanaTurtleBot(Thread):
         global guardar_ruta
         global directorio_guardar_ruta
 
-        guardar_ruta = messagebox.askyesnocancel(message="¿Desea guardar la trayectoria del robot?", title="Interfaz TurtleBot")
+        guardar_ruta = messagebox.askyesnocancel(message="¿Guardar la trayectoria del robot?", title="Interfaz Robot")
         if guardar_ruta:
             ruta = filedialog.askdirectory()
             if ruta != "":
@@ -189,7 +189,7 @@ class VentanaTurtleBot(Thread):
         global salir 
         global guardar_ruta
 
-        salir = messagebox.showinfo(message="Recuerda presionar Q en la consola del teleop", title="Título")
+        salir = messagebox.showinfo(message="Hasta pronto :)", title="Título")
         for item in canvas.get_tk_widget().find_all():
             canvas.get_tk_widget().delete(item)
         plt.plot(xdata, ydata, color='m', linewidth=3, markersize=1, markeredgecolor='m')
@@ -214,11 +214,11 @@ class VentanaTurtleBot(Thread):
         self.minimal_subscriber.destroy_node()
         rclpy.shutdown()
 
-    def detener(self):
-        ani.event_source.stop()
+    # def detener(self):
+    #     ani.event_source.stop()
 
-    def reanudar(self):
-        ani.event_source.start()
+    # def reanudar(self):
+    #     ani.event_source.start()
 
 def main(args=None):
     rclpy.init(args=args)

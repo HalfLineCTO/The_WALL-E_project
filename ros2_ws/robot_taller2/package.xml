@@ -23,6 +23,8 @@
   <exec_depend>robot_taller2/connection_serial</exec_depend>
 
   <exec_depend>robot_taller2/srv/DoPath</exec_depend>
+  <exec_depend>robot_taller2/srv/SavePath</exec_depend>
+  <exec_depend>robot_taller2/msg/Float32MultiArray</exec_depend>
 
 
   <exec_depend>libqt5-core</exec_depend>

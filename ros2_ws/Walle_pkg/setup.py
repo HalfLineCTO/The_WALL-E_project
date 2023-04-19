@@ -21,6 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'turtle_bot_teleop = Walle_pkg.turtle_bot_teleop:main'
+            'connectionSerial = Walle_pkg.connection_serial:main'
+            'robot_interface = Walle_pkg.walle_interface:main'
+            
         ],
     },
 )

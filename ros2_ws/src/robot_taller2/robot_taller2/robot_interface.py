@@ -7,8 +7,8 @@ import os
 
 from time import sleep
 from tkinter import Tk, Label, Button, Frame, Entry, messagebox,filedialog
-from src.robot_taller2.srv import SavePath, DoPath
-from src.robot_taller2.msg import Float32MultiArray
+from robot_taller2.srv import SavePath, DoPath
+from robot_taller2.msg import Float32MultiArray
 import tkinter
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt

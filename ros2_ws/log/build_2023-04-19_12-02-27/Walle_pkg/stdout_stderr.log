@@ -1,0 +1,37 @@
+running egg_info
+writing ../build/Walle_pkg/walle_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/Walle_pkg/walle_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/Walle_pkg/walle_pkg.egg-info/entry_points.txt
+writing requirements to ../build/Walle_pkg/walle_pkg.egg-info/requires.txt
+writing top-level names to ../build/Walle_pkg/walle_pkg.egg-info/top_level.txt
+reading manifest file '../build/Walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/Walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/turtlebot_player_client.py to turtlebot_player_client.cpython-310.pyc
+  File "/home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/turtlebot_player_client.py", line 3
+    from import nameFile,nameFileResponse
+         ^^^^^^
+SyntaxError: invalid syntax
+
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/robot_player_cliente.py to robot_player_cliente.cpython-310.pyc
+Sorry: IndentationError: expected an indented block after 'if' statement on line 39 (robot_player_cliente.py, line 40)
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtlebot_player_client.py to turtlebot_player_client.cpython-310.pyc
+  File "/home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtlebot_player_client.py", line 5
+    from  import *
+          ^^^^^^
+SyntaxError: invalid syntax
+
+running install_data
+copying resource/walle_pkg -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/share/ament_index/resource_index/packages
+creating /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/share/walle_pkg
+copying package.xml -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/share/walle_pkg
+running install_egg_info
+Copying ../build/Walle_pkg/walle_pkg.egg-info to /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_bot_teleop = walle_pkg.turtle_bot_teleop:mainconnectionSerial = walle_pkg.connection_serial:mainturtle_bot_interface script to /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/walle_pkg
+writing list of installed files to '/home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/install.log'

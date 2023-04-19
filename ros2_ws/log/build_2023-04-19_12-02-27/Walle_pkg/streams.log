@@ -1,0 +1,39 @@
+[2.581s] Invoking command in '/home/juan/The_WALL-E_project/ros2_ws/walle_pkg': PYTHONPATH=/home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/prefix_override:/home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Walle_pkg build --build-base /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build install --record /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/install.log --single-version-externally-managed
+[3.302s] running egg_info
+[3.303s] writing ../build/Walle_pkg/walle_pkg.egg-info/PKG-INFO
+[3.304s] writing dependency_links to ../build/Walle_pkg/walle_pkg.egg-info/dependency_links.txt
+[3.304s] writing entry points to ../build/Walle_pkg/walle_pkg.egg-info/entry_points.txt
+[3.305s] writing requirements to ../build/Walle_pkg/walle_pkg.egg-info/requires.txt
+[3.305s] writing top-level names to ../build/Walle_pkg/walle_pkg.egg-info/top_level.txt
+[3.311s] reading manifest file '../build/Walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+[3.313s] writing manifest file '../build/Walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+[3.313s] running build
+[3.313s] running build_py
+[3.315s] running install
+[3.315s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.315s]   warnings.warn(
+[3.316s] running install_lib
+[3.321s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/turtlebot_player_client.py to turtlebot_player_client.cpython-310.pyc
+[3.321s]   File "/home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/turtlebot_player_client.py", line 3
+[3.321s]     from import nameFile,nameFileResponse
+[3.322s]          ^^^^^^
+[3.322s] SyntaxError: invalid syntax
+[3.322s] 
+[3.322s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/robot_player_cliente.py to robot_player_cliente.cpython-310.pyc
+[3.322s] Sorry: IndentationError: expected an indented block after 'if' statement on line 39 (robot_player_cliente.py, line 40)
+[3.323s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtlebot_player_client.py to turtlebot_player_client.cpython-310.pyc
+[3.324s]   File "/home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtlebot_player_client.py", line 5
+[3.325s]     from  import *
+[3.325s]           ^^^^^^
+[3.325s] SyntaxError: invalid syntax
+[3.326s] 
+[3.326s] running install_data
+[3.326s] copying resource/walle_pkg -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/share/ament_index/resource_index/packages
+[3.327s] creating /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/share/walle_pkg
+[3.327s] copying package.xml -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/share/walle_pkg
+[3.327s] running install_egg_info
+[3.331s] Copying ../build/Walle_pkg/walle_pkg.egg-info to /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg-0.0.0-py3.10.egg-info
+[3.334s] running install_scripts
+[3.388s] Installing turtle_bot_teleop = walle_pkg.turtle_bot_teleop:mainconnectionSerial = walle_pkg.connection_serial:mainturtle_bot_interface script to /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/walle_pkg
+[3.389s] writing list of installed files to '/home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/install.log'
+[3.447s] Invoked command in '/home/juan/The_WALL-E_project/ros2_ws/walle_pkg' returned '0': PYTHONPATH=/home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/prefix_override:/home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Walle_pkg build --build-base /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build install --record /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/install.log --single-version-externally-managed

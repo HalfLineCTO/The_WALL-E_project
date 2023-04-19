@@ -1,0 +1,9 @@
+[console_scripts]
+Raspy_serial = walle_pkg.Raspy_serial:main
+connection_serial = walle_pkg.connection_serial:main
+robot_interface = walle_pkg.robot_interface:main
+robot_player = walle_pkg.robot_player:main
+robot_teleop = walle_pkg.robot_teleop:main
+turtle_bot_teleop = walle_pkg.turtle_bot_teleop:main
+walle_interface = walle_pkg.walle_interface:main
+

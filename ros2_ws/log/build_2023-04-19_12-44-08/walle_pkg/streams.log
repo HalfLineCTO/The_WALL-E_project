@@ -1,0 +1,26 @@
+[2.220s] Invoking command in '/home/juan/The_WALL-E_project/ros2_ws/src/walle_pkg': PYTHONPATH=/home/juan/The_WALL-E_project/ros2_ws/build/walle_pkg/prefix_override:/home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/walle_pkg build --build-base /home/juan/The_WALL-E_project/ros2_ws/build/walle_pkg/build install --record /home/juan/The_WALL-E_project/ros2_ws/build/walle_pkg/install.log --single-version-externally-managed
+[2.853s] running egg_info
+[2.855s] writing ../../build/walle_pkg/walle_pkg.egg-info/PKG-INFO
+[2.856s] writing dependency_links to ../../build/walle_pkg/walle_pkg.egg-info/dependency_links.txt
+[2.857s] writing entry points to ../../build/walle_pkg/walle_pkg.egg-info/entry_points.txt
+[2.857s] writing requirements to ../../build/walle_pkg/walle_pkg.egg-info/requires.txt
+[2.857s] writing top-level names to ../../build/walle_pkg/walle_pkg.egg-info/top_level.txt
+[2.863s] reading manifest file '../../build/walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+[2.866s] writing manifest file '../../build/walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+[2.867s] running build
+[2.867s] running build_py
+[2.868s] copying walle_pkg/connection_serial.py -> /home/juan/The_WALL-E_project/ros2_ws/build/walle_pkg/build/lib/walle_pkg
+[2.870s] running install
+[2.871s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.871s]   warnings.warn(
+[2.872s] running install_lib
+[2.874s] copying /home/juan/The_WALL-E_project/ros2_ws/build/walle_pkg/build/lib/walle_pkg/connection_serial.py -> /home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+[2.876s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/python3.10/site-packages/walle_pkg/connection_serial.py to connection_serial.cpython-310.pyc
+[2.878s] running install_data
+[2.880s] running install_egg_info
+[2.884s] removing '/home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/python3.10/site-packages/walle_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.885s] Copying ../../build/walle_pkg/walle_pkg.egg-info to /home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/python3.10/site-packages/walle_pkg-0.0.0-py3.10.egg-info
+[2.888s] running install_scripts
+[2.943s] Installing my_node = walle_pkg.my_node:mainrobot_interface = robot_taller2.robot_interface:mainraspy_serial = walle_pkg.Raspy_serial:mainrobot_teleop = walle_pkg.robot_teleop:mainrobot_player = walle_pkg.robot_player:mainturtle_bot_teleop = walle_pkg.turtle_bot_teleopconnectionSerial script to /home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/walle_pkg
+[2.943s] error: [Errno 36] File name too long: '/home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/walle_pkg/my_node = walle_pkg.my_node:mainrobot_interface = robot_taller2.robot_interface:mainraspy_serial = walle_pkg.Raspy_serial:mainrobot_teleop = walle_pkg.robot_teleop:mainrobot_player = walle_pkg.robot_player:mainturtle_bot_teleop = walle_pkg.turtle_bot_teleopconnectionSerial'
+[3.026s] Invoked command in '/home/juan/The_WALL-E_project/ros2_ws/src/walle_pkg' returned '1': PYTHONPATH=/home/juan/The_WALL-E_project/ros2_ws/build/walle_pkg/prefix_override:/home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/walle_pkg build --build-base /home/juan/The_WALL-E_project/ros2_ws/build/walle_pkg/build install --record /home/juan/The_WALL-E_project/ros2_ws/build/walle_pkg/install.log --single-version-externally-managed

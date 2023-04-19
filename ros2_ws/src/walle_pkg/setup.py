@@ -20,7 +20,16 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_node = walle_pkg.my_node:main'
+            'turtle_bot_teleop = walle_pkg.turtle_bot_teleop:main',
+            'connection_serial = walle_pkg.connection_serial:main',
+            'Raspy_serial = walle_pkg.Raspy_serial:main',
+            'robot_interface = walle_pkg.robot_interface:main',
+            'robot_teleop = walle_pkg.robot_teleop:main',
+            'robot_player = walle_pkg.robot_player:main',
+            'walle_interface = walle_pkg.walle_interface:main',
+
+
+
         ],
     },
 )

@@ -1,0 +1,66 @@
+[1.327s] Invoking command in '/home/juan/The_WALL-E_project/ros2_ws/src/walle_pkg': PYTHONPATH=/home/juan/The_WALL-E_project/build/walle_pkg/prefix_override:/home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/walle_pkg build --build-base /home/juan/The_WALL-E_project/build/walle_pkg/build install --record /home/juan/The_WALL-E_project/build/walle_pkg/install.log --single-version-externally-managed
+[1.613s] running egg_info
+[1.614s] creating ../../../build/walle_pkg/walle_pkg.egg-info
+[1.614s] writing ../../../build/walle_pkg/walle_pkg.egg-info/PKG-INFO
+[1.614s] writing dependency_links to ../../../build/walle_pkg/walle_pkg.egg-info/dependency_links.txt
+[1.614s] writing entry points to ../../../build/walle_pkg/walle_pkg.egg-info/entry_points.txt
+[1.614s] writing requirements to ../../../build/walle_pkg/walle_pkg.egg-info/requires.txt
+[1.614s] writing top-level names to ../../../build/walle_pkg/walle_pkg.egg-info/top_level.txt
+[1.615s] writing manifest file '../../../build/walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+[1.616s] reading manifest file '../../../build/walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+[1.617s] writing manifest file '../../../build/walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+[1.617s] running build
+[1.617s] running build_py
+[1.617s] creating /home/juan/The_WALL-E_project/build/walle_pkg/build
+[1.617s] creating /home/juan/The_WALL-E_project/build/walle_pkg/build/lib
+[1.618s] creating /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg
+[1.618s] copying walle_pkg/__init__.py -> /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg
+[1.618s] copying walle_pkg/walle_interface.py -> /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg
+[1.618s] copying walle_pkg/robot_player.py -> /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg
+[1.618s] copying walle_pkg/robot_teleop.py -> /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg
+[1.618s] copying walle_pkg/my_node.py -> /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg
+[1.618s] copying walle_pkg/Raspy_serial.py -> /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg
+[1.621s] copying walle_pkg/turtle_bot_teleop.py -> /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg
+[1.621s] copying walle_pkg/connection_serial.py -> /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg
+[1.621s] copying walle_pkg/robot_interface.py -> /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg
+[1.625s] running install
+[1.625s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.625s]   warnings.warn(
+[1.625s] running install_lib
+[1.626s] creating /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+[1.627s] copying /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg/__init__.py -> /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+[1.627s] copying /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg/walle_interface.py -> /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+[1.627s] copying /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg/robot_player.py -> /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+[1.627s] copying /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg/robot_teleop.py -> /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+[1.627s] copying /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg/my_node.py -> /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+[1.627s] copying /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg/Raspy_serial.py -> /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+[1.627s] copying /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg/turtle_bot_teleop.py -> /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+[1.627s] copying /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg/connection_serial.py -> /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+[1.627s] copying /home/juan/The_WALL-E_project/build/walle_pkg/build/lib/walle_pkg/robot_interface.py -> /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+[1.628s] byte-compiling /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg/__init__.py to __init__.cpython-310.pyc
+[1.628s] byte-compiling /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg/walle_interface.py to walle_interface.cpython-310.pyc
+[1.629s] byte-compiling /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg/robot_player.py to robot_player.cpython-310.pyc
+[1.630s] byte-compiling /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg/robot_teleop.py to robot_teleop.cpython-310.pyc
+[1.630s] byte-compiling /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg/my_node.py to my_node.cpython-310.pyc
+[1.631s] byte-compiling /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg/Raspy_serial.py to Raspy_serial.cpython-310.pyc
+[1.631s] byte-compiling /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc
+[1.632s] byte-compiling /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg/connection_serial.py to connection_serial.cpython-310.pyc
+[1.632s] byte-compiling /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg/robot_interface.py to robot_interface.cpython-310.pyc
+[1.634s] running install_data
+[1.635s] creating /home/juan/The_WALL-E_project/install/walle_pkg/share/ament_index
+[1.635s] creating /home/juan/The_WALL-E_project/install/walle_pkg/share/ament_index/resource_index
+[1.635s] creating /home/juan/The_WALL-E_project/install/walle_pkg/share/ament_index/resource_index/packages
+[1.635s] copying resource/walle_pkg -> /home/juan/The_WALL-E_project/install/walle_pkg/share/ament_index/resource_index/packages
+[1.635s] copying package.xml -> /home/juan/The_WALL-E_project/install/walle_pkg/share/walle_pkg
+[1.635s] running install_egg_info
+[1.636s] Copying ../../../build/walle_pkg/walle_pkg.egg-info to /home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages/walle_pkg-0.0.0-py3.10.egg-info
+[1.637s] running install_scripts
+[1.659s] Installing Raspy_serial script to /home/juan/The_WALL-E_project/install/walle_pkg/lib/walle_pkg
+[1.659s] Installing connection_serial script to /home/juan/The_WALL-E_project/install/walle_pkg/lib/walle_pkg
+[1.659s] Installing robot_interface script to /home/juan/The_WALL-E_project/install/walle_pkg/lib/walle_pkg
+[1.659s] Installing robot_player script to /home/juan/The_WALL-E_project/install/walle_pkg/lib/walle_pkg
+[1.659s] Installing robot_teleop script to /home/juan/The_WALL-E_project/install/walle_pkg/lib/walle_pkg
+[1.659s] Installing turtle_bot_teleop script to /home/juan/The_WALL-E_project/install/walle_pkg/lib/walle_pkg
+[1.659s] Installing walle_interface script to /home/juan/The_WALL-E_project/install/walle_pkg/lib/walle_pkg
+[1.659s] writing list of installed files to '/home/juan/The_WALL-E_project/build/walle_pkg/install.log'
+[1.712s] Invoked command in '/home/juan/The_WALL-E_project/ros2_ws/src/walle_pkg' returned '0': PYTHONPATH=/home/juan/The_WALL-E_project/build/walle_pkg/prefix_override:/home/juan/The_WALL-E_project/install/walle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/walle_pkg build --build-base /home/juan/The_WALL-E_project/build/walle_pkg/build install --record /home/juan/The_WALL-E_project/build/walle_pkg/install.log --single-version-externally-managed

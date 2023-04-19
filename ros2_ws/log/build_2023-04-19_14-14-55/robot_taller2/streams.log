@@ -1,0 +1,26 @@
+[2.142s] Invoking command in '/home/juan/The_WALL-E_project/ros2_ws/src/robot_taller2': PYTHONPATH=/home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/prefix_override:/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_taller2 build --build-base /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build install --record /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/install.log --single-version-externally-managed
+[2.484s] running egg_info
+[2.485s] writing ../../build/robot_taller2/robot_taller2.egg-info/PKG-INFO
+[2.485s] writing dependency_links to ../../build/robot_taller2/robot_taller2.egg-info/dependency_links.txt
+[2.486s] writing entry points to ../../build/robot_taller2/robot_taller2.egg-info/entry_points.txt
+[2.486s] writing requirements to ../../build/robot_taller2/robot_taller2.egg-info/requires.txt
+[2.486s] writing top-level names to ../../build/robot_taller2/robot_taller2.egg-info/top_level.txt
+[2.488s] reading manifest file '../../build/robot_taller2/robot_taller2.egg-info/SOURCES.txt'
+[2.490s] writing manifest file '../../build/robot_taller2/robot_taller2.egg-info/SOURCES.txt'
+[2.490s] running build
+[2.490s] running build_py
+[2.490s] running install
+[2.490s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.490s]   warnings.warn(
+[2.491s] running install_lib
+[2.492s] running install_data
+[2.493s] running install_egg_info
+[2.495s] removing '/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.495s] Copying ../../build/robot_taller2/robot_taller2.egg-info to /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2-0.0.0-py3.10.egg-info
+[2.496s] running install_scripts
+[2.522s] Installing raspy_serial script to /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/robot_taller2
+[2.522s] Installing robot_interface script to /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/robot_taller2
+[2.522s] Installing robot_player script to /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/robot_taller2
+[2.522s] Installing robot_teleop script to /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/robot_taller2
+[2.523s] writing list of installed files to '/home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/install.log'
+[2.589s] Invoked command in '/home/juan/The_WALL-E_project/ros2_ws/src/robot_taller2' returned '0': PYTHONPATH=/home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/prefix_override:/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_taller2 build --build-base /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build install --record /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/install.log --single-version-externally-managed

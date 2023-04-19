@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/walle_pkg/walle_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/walle_pkg/walle_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/walle_pkg/walle_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/walle_pkg/walle_pkg.egg-info/requires.txt
+writing top-level names to ../../build/walle_pkg/walle_pkg.egg-info/top_level.txt
+reading manifest file '../../build/walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying walle_pkg/connection_serial.py -> /home/juan/The_WALL-E_project/ros2_ws/build/walle_pkg/build/lib/walle_pkg
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/juan/The_WALL-E_project/ros2_ws/build/walle_pkg/build/lib/walle_pkg/connection_serial.py -> /home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/python3.10/site-packages/walle_pkg
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/python3.10/site-packages/walle_pkg/connection_serial.py to connection_serial.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/python3.10/site-packages/walle_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/walle_pkg/walle_pkg.egg-info to /home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/python3.10/site-packages/walle_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_node = walle_pkg.my_node:mainrobot_interface = robot_taller2.robot_interface:mainraspy_serial = walle_pkg.Raspy_serial:mainrobot_teleop = walle_pkg.robot_teleop:mainrobot_player = walle_pkg.robot_player:mainturtle_bot_teleop = walle_pkg.turtle_bot_teleopconnectionSerial script to /home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/walle_pkg
+error: [Errno 36] File name too long: '/home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/walle_pkg/my_node = walle_pkg.my_node:mainrobot_interface = robot_taller2.robot_interface:mainraspy_serial = walle_pkg.Raspy_serial:mainrobot_teleop = walle_pkg.robot_teleop:mainrobot_player = walle_pkg.robot_player:mainturtle_bot_teleop = walle_pkg.turtle_bot_teleopconnectionSerial'

@@ -20,9 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'robot_interface = robot_taller2.robot_interface:main'
-            'raspy_serial = robot_taller2.Raspy_serial:main'
-            'robot_teleop = robot_taller2.robot_teleop:main'
+            'robot_interface = robot_taller2.robot_interface:main',
+            'raspy_serial = robot_taller2.Raspy_serial:main',
+            'robot_teleop = robot_taller2.robot_teleop:main',
             'robot_player = robot_taller2.robot_player:main'
 
 

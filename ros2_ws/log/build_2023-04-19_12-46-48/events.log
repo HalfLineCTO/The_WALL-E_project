@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000270] (-) JobUnselected: {'identifier': 'robot_taller2'}
+[0.000382] (-) JobUnselected: {'identifier': 'walle_pkg'}
+[0.000473] (-) EventReactorShutdown: {}

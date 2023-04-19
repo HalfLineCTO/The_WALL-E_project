@@ -1,0 +1,3 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+error: [Errno 36] File name too long: '/home/juan/The_WALL-E_project/ros2_ws/install/walle_pkg/lib/walle_pkg/my_node = walle_pkg.my_node:mainrobot_interface = robot_taller2.robot_interface:mainraspy_serial = walle_pkg.Raspy_serial:mainrobot_teleop = walle_pkg.robot_teleop:mainrobot_player = walle_pkg.robot_player:mainturtle_bot_teleop = walle_pkg.turtle_bot_teleopconnectionSerial'

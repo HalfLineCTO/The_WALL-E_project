@@ -1,0 +1,40 @@
+[2.441s] Invoking command in '/home/juan/The_WALL-E_project/ros2_ws/src/robot_taller2': PYTHONPATH=/home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/prefix_override:/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_taller2 build --build-base /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build install --record /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/install.log --single-version-externally-managed
+[3.124s] running egg_info
+[3.127s] writing ../../build/robot_taller2/robot_taller2.egg-info/PKG-INFO
+[3.128s] writing dependency_links to ../../build/robot_taller2/robot_taller2.egg-info/dependency_links.txt
+[3.128s] writing entry points to ../../build/robot_taller2/robot_taller2.egg-info/entry_points.txt
+[3.128s] writing requirements to ../../build/robot_taller2/robot_taller2.egg-info/requires.txt
+[3.128s] writing top-level names to ../../build/robot_taller2/robot_taller2.egg-info/top_level.txt
+[3.129s] writing manifest file '../../build/robot_taller2/robot_taller2.egg-info/SOURCES.txt'
+[3.134s] reading manifest file '../../build/robot_taller2/robot_taller2.egg-info/SOURCES.txt'
+[3.137s] writing manifest file '../../build/robot_taller2/robot_taller2.egg-info/SOURCES.txt'
+[3.138s] running build
+[3.138s] running build_py
+[3.139s] copying robot_taller2/__init__.py -> /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build/lib/robot_taller2
+[3.139s] copying robot_taller2/robot_player.py -> /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build/lib/robot_taller2
+[3.140s] copying robot_taller2/robot_teleop.py -> /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build/lib/robot_taller2
+[3.140s] copying robot_taller2/Raspy_serial.py -> /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build/lib/robot_taller2
+[3.141s] copying robot_taller2/robot_interface.py -> /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build/lib/robot_taller2
+[3.141s] running install
+[3.142s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.142s]   warnings.warn(
+[3.144s] running install_lib
+[3.146s] copying /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build/lib/robot_taller2/__init__.py -> /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2
+[3.147s] copying /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build/lib/robot_taller2/robot_player.py -> /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2
+[3.147s] copying /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build/lib/robot_taller2/robot_teleop.py -> /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2
+[3.148s] copying /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build/lib/robot_taller2/Raspy_serial.py -> /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2
+[3.149s] copying /home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/build/lib/robot_taller2/robot_interface.py -> /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2
+[3.150s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/__init__.py to __init__.cpython-310.pyc
+[3.151s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/robot_player.py to robot_player.cpython-310.pyc
+[3.151s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/robot_teleop.py to robot_teleop.cpython-310.pyc
+[3.154s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/Raspy_serial.py to Raspy_serial.cpython-310.pyc
+[3.154s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/robot_interface.py to robot_interface.cpython-310.pyc
+[3.155s] running install_data
+[3.156s] copying resource/robot_taller2 -> /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/share/ament_index/resource_index/packages
+[3.156s] copying package.xml -> /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/share/robot_taller2
+[3.157s] running install_egg_info
+[3.160s] removing '/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2-0.0.0-py3.10.egg-info' (and everything under it)
+[3.160s] Copying ../../build/robot_taller2/robot_taller2.egg-info to /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2-0.0.0-py3.10.egg-info
+[3.162s] running install_scripts
+[3.222s] Installing robot_interface = robot_taller2.robot_interface:mainraspy_serial = robot_taller2.Raspy_serial:mainrobot_teleop = robot_taller2.robot_teleop:mainrobot_player script to /home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/robot_taller2
+[3.223s] writing list of installed files to '/home/juan/The_WALL-E_project/ros2_ws/build/robot_taller2/install.log'

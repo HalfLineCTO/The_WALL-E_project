@@ -1,0 +1,48 @@
+running egg_info
+creating ../build/Walle_pkg/walle_pkg.egg-info
+writing ../build/Walle_pkg/walle_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/Walle_pkg/walle_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/Walle_pkg/walle_pkg.egg-info/entry_points.txt
+writing requirements to ../build/Walle_pkg/walle_pkg.egg-info/requires.txt
+writing top-level names to ../build/Walle_pkg/walle_pkg.egg-info/top_level.txt
+writing manifest file '../build/Walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/Walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/Walle_pkg/walle_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg
+copying walle_pkg/turtle_bot_teleop_t.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg
+copying walle_pkg/__init__.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg
+copying walle_pkg/turtlebot_player_client.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg
+copying walle_pkg/walle_interface.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg
+copying walle_pkg/robot_player_cliente.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg
+copying walle_pkg/turtlebot_player_serv.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg
+copying walle_pkg/turtle_bot_teleop.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg
+copying walle_pkg/robot_player_servidor.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg
+copying walle_pkg/connection_serial.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg
+copying walle_pkg/turtle_bot_teleop_l.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg
+running install
+running install_lib
+creating /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg
+copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg/turtle_bot_teleop_t.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg
+copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg/__init__.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg
+copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg/turtlebot_player_client.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg
+copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg/walle_interface.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg
+copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg/robot_player_cliente.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg
+copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg/turtlebot_player_serv.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg
+copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg/turtle_bot_teleop.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg
+copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg/robot_player_servidor.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg
+copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg/connection_serial.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg
+copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/walle_pkg/turtle_bot_teleop_l.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/turtle_bot_teleop_t.py to turtle_bot_teleop_t.cpython-310.pyc
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/turtlebot_player_client.py to turtlebot_player_client.cpython-310.pyc
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/walle_interface.py to walle_interface.cpython-310.pyc
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/robot_player_cliente.py to robot_player_cliente.cpython-310.pyc
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/turtlebot_player_serv.py to turtlebot_player_serv.cpython-310.pyc
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/robot_player_servidor.py to robot_player_servidor.cpython-310.pyc
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/connection_serial.py to connection_serial.cpython-310.pyc
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/walle_pkg/turtle_bot_teleop_l.py to turtle_bot_teleop_l.cpython-310.pyc
+byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtlebot_player_client.py to turtlebot_player_client.cpython-310.pyc
+running install_data

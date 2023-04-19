@@ -13,7 +13,9 @@
   <test_depend>python3-pytest</test_depend>
   <build_depend>Walle_pkg/servicio</build_depend>
   
-  <exec_depend>Walle_pkg/servicio</exec_depend>
+  <exec_depend>Walle_pkg/connection_serial</exec_depend>
+  <exec_depend>Walle_pkg/walle_inteface</exec_depend>
+  <exec_depend>Walle_pkg/turtle_bot_teleop</exec_depend>
   
 
 

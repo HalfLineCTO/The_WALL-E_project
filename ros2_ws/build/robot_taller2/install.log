@@ -1,0 +1,20 @@
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/__init__.py
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/robot_player.py
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/robot_teleop.py
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/Raspy_serial.py
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/robot_interface.py
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/__pycache__/__init__.cpython-310.pyc
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/__pycache__/robot_player.cpython-310.pyc
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/__pycache__/robot_teleop.cpython-310.pyc
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/__pycache__/Raspy_serial.cpython-310.pyc
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2/__pycache__/robot_interface.cpython-310.pyc
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/share/ament_index/resource_index/packages/robot_taller2
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/share/robot_taller2/package.xml
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2-0.0.0-py3.10.egg-info/entry_points.txt
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2-0.0.0-py3.10.egg-info/requires.txt
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2-0.0.0-py3.10.egg-info/dependency_links.txt
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2-0.0.0-py3.10.egg-info/top_level.txt
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2-0.0.0-py3.10.egg-info/zip-safe
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2-0.0.0-py3.10.egg-info/PKG-INFO
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/python3.10/site-packages/robot_taller2-0.0.0-py3.10.egg-info/SOURCES.txt
+/home/juan/The_WALL-E_project/ros2_ws/install/robot_taller2/lib/robot_taller2/robot_interface = robot_taller2.robot_interface:mainraspy_serial = robot_taller2.Raspy_serial:mainrobot_teleop = robot_taller2.robot_teleop:mainrobot_player

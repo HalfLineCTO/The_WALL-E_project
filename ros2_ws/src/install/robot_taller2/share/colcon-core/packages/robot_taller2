@@ -1,0 +1,1 @@
+ament_index_cpp:geometry_msgs:launch:launch_ros:launch_testing:libqt5-core:libqt5-gui:rclcpp:rclcpp_action:rclpy:robot_taller2/connection_serial:robot_taller2/msg/Float32MultiArray:robot_taller2/robot_interface:robot_taller2/robot_player:robot_taller2/robot_teleop:robot_taller2/srv/DoPath:robot_taller2/srv/SavePath:rosidl_default_runtime:std_msgs:std_srvs

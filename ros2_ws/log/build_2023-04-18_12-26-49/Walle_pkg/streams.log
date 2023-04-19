@@ -1,0 +1,46 @@
+[1.688s] Invoking command in '/home/juan/The_WALL-E_project/ros2_ws/Walle_pkg': PYTHONPATH=/home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/prefix_override:/home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Walle_pkg build --build-base /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build install --record /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/install.log --single-version-externally-managed
+[2.337s] running egg_info
+[2.338s] writing ../build/Walle_pkg/Walle_pkg.egg-info/PKG-INFO
+[2.339s] writing dependency_links to ../build/Walle_pkg/Walle_pkg.egg-info/dependency_links.txt
+[2.339s] writing entry points to ../build/Walle_pkg/Walle_pkg.egg-info/entry_points.txt
+[2.339s] writing requirements to ../build/Walle_pkg/Walle_pkg.egg-info/requires.txt
+[2.340s] writing top-level names to ../build/Walle_pkg/Walle_pkg.egg-info/top_level.txt
+[2.344s] reading manifest file '../build/Walle_pkg/Walle_pkg.egg-info/SOURCES.txt'
+[2.348s] writing manifest file '../build/Walle_pkg/Walle_pkg.egg-info/SOURCES.txt'
+[2.348s] running build
+[2.349s] running build_py
+[2.349s] copying Walle_pkg/turtle_bot_teleop_t.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg
+[2.350s] copying Walle_pkg/turtlebot_player_client.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg
+[2.350s] copying Walle_pkg/walle_interface.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg
+[2.350s] copying Walle_pkg/turtlebot_player_server.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg
+[2.351s] copying Walle_pkg/connection_serial.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg
+[2.351s] copying Walle_pkg/turtle_bot_teleop_l.py -> /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg
+[2.352s] running install
+[2.353s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.353s]   warnings.warn(
+[2.354s] running install_lib
+[2.355s] copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg/turtle_bot_teleop_t.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg
+[2.356s] copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg/turtlebot_player_client.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg
+[2.356s] copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg/walle_interface.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg
+[2.356s] copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg/turtlebot_player_server.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg
+[2.357s] copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg/connection_serial.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg
+[2.357s] copying /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build/lib/Walle_pkg/turtle_bot_teleop_l.py -> /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg
+[2.358s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtle_bot_teleop_t.py to turtle_bot_teleop_t.cpython-310.pyc
+[2.359s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtlebot_player_client.py to turtlebot_player_client.cpython-310.pyc
+[2.359s]   File "/home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtlebot_player_client.py", line 5
+[2.359s]     from  import *
+[2.360s]           ^^^^^^
+[2.360s] SyntaxError: invalid syntax
+[2.360s] 
+[2.360s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/walle_interface.py to walle_interface.cpython-310.pyc
+[2.361s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtlebot_player_server.py to turtlebot_player_server.cpython-310.pyc
+[2.361s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/connection_serial.py to connection_serial.cpython-310.pyc
+[2.362s] byte-compiling /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtle_bot_teleop_l.py to turtle_bot_teleop_l.cpython-310.pyc
+[2.363s] running install_data
+[2.365s] running install_egg_info
+[2.368s] removing '/home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.369s] Copying ../build/Walle_pkg/Walle_pkg.egg-info to /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg-0.0.0-py3.10.egg-info
+[2.371s] running install_scripts
+[2.416s] Installing turtle_bot_teleop script to /home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/Walle_pkg
+[2.417s] writing list of installed files to '/home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/install.log'
+[2.467s] Invoked command in '/home/juan/The_WALL-E_project/ros2_ws/Walle_pkg' returned '0': PYTHONPATH=/home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/prefix_override:/home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/Walle_pkg build --build-base /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/build install --record /home/juan/The_WALL-E_project/ros2_ws/build/Walle_pkg/install.log --single-version-externally-managed

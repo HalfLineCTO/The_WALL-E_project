@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/juan/The_WALL-E_project/ros2_ws/install/Walle_pkg/lib/python3.10/site-packages/Walle_pkg/turtlebot_player_client.py", line 5
+    from  import *
+          ^^^^^^
+SyntaxError: invalid syntax
+

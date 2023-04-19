@@ -2,6 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Pose
+from geometry_msgs.msg import Twist
 import matplotlib.pyplot as plt
 from tkinter import *
 from tkinter.filedialog import asksaveasfilename

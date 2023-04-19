@@ -9,7 +9,13 @@ setup.py
 ../build/Walle_pkg/Walle_pkg.egg-info/top_level.txt
 ../build/Walle_pkg/Walle_pkg.egg-info/zip-safe
 Walle_pkg/__init__.py
+Walle_pkg/connection_serial.py
 Walle_pkg/turtle_bot_teleop.py
+Walle_pkg/turtle_bot_teleop_l.py
+Walle_pkg/turtle_bot_teleop_t.py
+Walle_pkg/turtlebot_player_client.py
+Walle_pkg/turtlebot_player_server.py
+Walle_pkg/walle_interface.py
 resource/Walle_pkg
 test/test_copyright.py
 test/test_flake8.py
